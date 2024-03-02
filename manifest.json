@@ -10,7 +10,8 @@
         "storage",
         "activeTab",
         "scripting",
-        "eyedropper"
+        "eyedropper",
+        "clipboardWrite"
     ],
     "options_page": "options.html",
     "action": {

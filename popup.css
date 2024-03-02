@@ -22,6 +22,7 @@ h2{
     background: #facc15;
     cursor: pointer;
     font-family: monospace;
+    margin-block-end:15px;
 }
 
 .colorGrid {
@@ -32,12 +33,25 @@ h2{
 }
 
 .selectedColor {
+    width: 100%;
     display: flex;
     align-items: center;
-    margin: 20px 35% 20px;
+    margin: 0 30% 15px;
 }
 
 .colorValue {
     margin-left: 5px;
     font-weight: bold;
+}
+
+button.copyButton {
+    display: block;
+    font-size: 10px;
+    cursor: pointer;
+    margin-left:7px;
+}
+
+svg.icon-sm {
+    width: 12px;
+    height: 12px;
 }

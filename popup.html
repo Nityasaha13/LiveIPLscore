@@ -11,9 +11,10 @@
   <div class="wrapper" id="draggable">
     <h2>Pick your Color</h2>
     <button class="changeColorBtn">Choose..</button>
-    <div class="selectedColor">
+    <div class="selectedColor" style="display: none;">
         <span class="colorGrid"></span>
         <span class="colorValue"></span>
+        <button class="copyButton" onclick="copyColorValue()">Copy</button>
     </div>
   </div>
   <script src="popup.js"></script>
