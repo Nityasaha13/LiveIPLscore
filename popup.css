@@ -1,29 +1,40 @@
 body {
     background: #f1f5f9;
+    border-radius: 30px;
+    border: 2px solid rgb(215, 215, 215);
 }
+
+h2{
+    font-family:cursive;
+}
+
 .wrapper {
     width: 300px;
     text-align: center;
 }
+
 .changeColorBtn {
-    width: 200px;
+    width: 180px;
     outline: none;
     border: none;
-    border-radius: 2px;
-    padding: 5px;
+    border-radius: 7px;
+    padding: 10px;
     background: #facc15;
     cursor: pointer;
+    font-family: monospace;
 }
+
 .colorGrid {
     display: inline-block;
     width: 20px;
     height: 20px;
     border-radius: 2px;
 }
+
 .selectedColor {
     display: flex;
     align-items: center;
-    margin-top: 20px;
+    margin: 20px 35% 20px;
 }
 
 .colorValue {
